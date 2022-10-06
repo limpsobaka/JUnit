@@ -12,9 +12,6 @@ import java.util.TreeMap;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MissedCallTest {
-  private PrintStream originalSystemOut;
-  private ByteArrayOutputStream systemOutContent;
-
   Contact contact;
   PhoneBook phoneBook;
 
